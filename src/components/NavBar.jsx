@@ -2,7 +2,11 @@ import React from 'react'
 
 const NavBar = () => {
   return (
-    <div>NavBar</div>
+    <nav>
+      <a href="../pages/Home">Home</a>
+      <a href="#">Cities</a>
+      <button>Login</button>
+    </nav>
   )
 }
 
